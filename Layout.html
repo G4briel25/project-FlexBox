@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="shortcut icon" href="Imagens/icone.jpg" type="image/x-icon">
+    
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menu_mobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+
+    <title>MediCenter</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="Imagens/logo.png" alt="">
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menu_mobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">PAGES</a></li>
+                        <li><a href="">DEPARTMENTS</a></li>
+                        <li><a href="">TIMETABLE</a></li>
+                        <li><a href="">GALLERY</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Top notch experience</h1>
+                <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+            </div>
+
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Emergency Caser</div>
+                    <div class="banner_desc">If you need a doctor urgently outside of medicenter opening hours, call emergency appointment number for emergency service.</div>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Doctors Timetable</div>
+                    <div class="banner_desc">Here at medicenter we have individual doctor's lists. Click read more below to see services and current timetable for our doctors.</div>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Opening Hours</div>
+
+                    <div class="banner_week">
+                        <div class="banner_days">Monday-Friday</div>
+                        <div class="banner_hours">8.00 - 17.00</div>
+                    </div>
+                    <div class="banner_bar"></div>
+
+                    <div class="banner_week">
+                        <div class="banner_days">Saturday</div>
+                        <div class="banner_hours">9.30 - 17.30</div>
+                    </div>
+                    <div class="banner_bar"></div>
+
+                    <div class="banner_week">
+                        <div class="banner_days">Sunday</div>
+                        <div class="banner_hours">9.30 - 15.00</div>
+                    </div>
+                    <div class="banner_bar"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text"><strong>Latest News</strong></div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comment">2</div>
+                                </div>
+                                <div class="triangle_news_posted_at"></div>
+                                <div class="news_thumbnail">
+                                    <img src="Imagens/dra.jpg">
+                                </div>
+                                <div class="news_title">Lorem Ipsum dolor sit amat velum</div>
+                                <div class="news_text">É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+                                    A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui",
+                                    fazendo com que ele tenha uma aparência similar a de um texto legível.
+                                </div>
+                                <div class="news_posted">Posted in <u>General,</u> <u>Dental clinc</u></div>
+                                <div class="news_bar"></div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comment">2</div>
+                                </div>
+                                <div class="triangle_news_posted_at"></div>
+                                <div class="news_thumbnail">
+                                    <img src="Imagens/dra.jpg">
+                                </div>
+                                <div class="news_title">Lorem Ipsum dolor sit amat velum</div>
+                                <div class="news_text">É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+                                    A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui",
+                                    fazendo com que ele tenha uma aparência similar a de um texto legível.
+                                </div>
+                                <div class="news_posted">Posted in <u>General,</u> <u>Dental clinc</u></div>
+                                <div class="news_bar"></div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comment">2</div>
+                                </div>
+                                <div class="triangle_news_posted_at"></div>
+                                <div class="news_thumbnail">
+                                    <img src="Imagens/dra.jpg">
+                                </div>
+                                <div class="news_title">Lorem Ipsum dolor sit amat velum</div>
+                                <div class="news_text">É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+                                    A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui",
+                                    fazendo com que ele tenha uma aparência similar a de um texto legível.
+                                </div>
+                                <div class="news_posted">Posted in <u>General,</u> <u>Dental clinc</u></div>
+                                <div class="news_bar"></div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">12 DEC 12</div>
+                                    <div class="news_comment">2</div>
+                                </div>
+                                <div class="triangle_news_posted_at"></div>
+                                <div class="news_thumbnail">
+                                    <img src="Imagens/dra.jpg">
+                                </div>
+                                <div class="news_title">Lorem Ipsum dolor sit amat velum</div>
+                                <div class="news_text">É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+                                    A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui",
+                                    fazendo com que ele tenha uma aparência similar a de um texto legível.
+                                </div>
+                                <div class="news_posted">Posted in <u>General,</u> <u>Dental clinc</u></div>
+                                <div class="news_bar"></div>
+                            </a>
+                        </article>
+
+                    </div>
+                </div>
+            </section>   
+
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text"><strong>Departments</strong></div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        
+                        <div>
+                            <div class="departments_primary">
+                                <div class="departments_title">Primary Health Care</div>
+                            </div>
+                        </div>
+                        
+                        <div class="traco">
+                            <div class="traco_bar"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="corpo">
+
+                        <div class="conteudo"> 
+                            <img src="Imagens/img.png" alt="">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Repudiandae, quidem consectetur, officia ea ullam omnis
+                                Jabucitaque hideo mapppa.</p>
+
+                        </div>
+                        <div id="botao">
+                            <a href="">
+                                <div class="botoes">Details →</div>
+                            </a>
+                            <a href="">
+                                <div class="botoes2">Timetable →</div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="maisopcoes">
+                        <a href="">
+                            <div class="desc">
+                                <div>Pediatric Clinic</div>
+                                <img src="Imagens/mais.png" width="18px" height="18px">
+                            </div>
+                            <div class="bar"></div>
+                        </a>
+                        <a href="">
+                            <div class="desc">
+                                <div>Outpatient Surgery</div>
+                                <img src="Imagens/mais.png" width="18px" height="18px">
+                            </div>
+                            <div class="bar"></div>
+                        </a>
+                        <a href="">
+                            <div class="desc">
+                                <div>Gynaecological Clinic</div>
+                                <img src="Imagens/mais.png" width="18px" height="18px">
+                            </div>
+                            <div class="bar"></div>
+                        </a>
+                        <a href="">
+                            <div class="desc">
+                                <div>Cardiac Clinic</div>
+                                <img src="Imagens/mais.png" width="18px" height="18px">
+                            </div>
+                            <div class="bar"></div>
+                        </a>
+                        <a href="">
+                            <div class="desc">
+                                <div>Laryngological Clinic</div>
+                                <img src="Imagens/mais.png" width="18px" height="18px">
+                            </div>
+                            <div class="bar"></div>
+                        </a>
+                        <a href="">
+                            <div class="desc">
+                                <div>Ophthalmology Clinic</div>
+                                <img src="Imagens/mais.png" width="18px" height="18px">
+                            </div>
+                            <div class="bar"></div>
+                        </a>
+                        <a href="">
+                            <div class="desc">
+                                <div>Dental Clinic</div>
+                                <img src="Imagens/mais.png" width="18px" height="18px">
+                            </div>
+                            <div class="bar"></div>
+                        </a>
+                        <a href="">
+                            <div class="desc">
+                                <div>Outpatient Rehabilitation</div>
+                                <img src="Imagens/mais.png" width="18px" height="18px">
+                            </div>
+                            <div class="bar"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text"><strong>Make An Appointment </strong></div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body2">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Error et veniam veritatis dicta</p>
+                    </div>
+                    <div class="contato">
+                        <div class="contato_bar"></div>
+                        <p><img src="Imagens/phone.png" height="28" width="28"> by phone: <strong>1-800-643-4300</strong></p>
+                        <div class="contato_bar"></div>
+                        <p><img src="Imagens/email.png" height="28" width="28"> e-mail: <a href="">medicenter@gmail.com</a></p> 
+                        <div class="contato_bar"></div>
+                        <p><img src="Imagens/formulario.png" height="28" width="28"> or <a href="">fill in the form</a> on our contacto page</p>
+                        <div class="contato_bar"></div>
+                    </div>
+                </div>
+            </aside>
+
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container FlexColmun">
+            <div class="footer_menu">
+                <div class="fm1">
+                    <a href="">
+                        <div class="fm_title">Health Insurance</div>
+                        <div class="fm_desc">Here in medicenter we have individual →</div>
+                    </a>
+                </div>
+                <div class="fm2">
+                    <a href="">
+                        <div class="fm_title">Medical Records</div>
+                        <div class="fm_desc">Here in medicenter we have individual →</div>
+                    </a>
+                </div>
+                <div class="fm3">
+                    <a href="">
+                        <div class="fm_title">Online Bill Pay</div>
+                        <div class="fm_desc">Here in medicenter we have individual →</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer_area">
+                <div class="footer_area-item">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Medicenter Clinic</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.</div>
+                        <div class="medicenter_contacts">
+                            <div class="medicenter_adress">
+                                Medicenter Clinic <br>
+                                33 Farlane Street <br>
+                                Keilor East <br>
+                                VIC 3033, Australia
+                            </div>
+                            <div class="medicenter_phone">
+                                +123 655 655 <br>
+                                +123755 755 <br><br>
+                                medicenter@gmail.com
+                            </div>
+                        </div>
+                        <div class="imgs">
+                            <a href=""><img src="Imagens/facebook.png" width="30" height="30"></a>
+                            <a href=""><img src="Imagens/twitter.png" width="30" height="30"></a>
+                            <a href=""><img src="Imagens/insta.png" width="30" height="30"></a>
+                            <a href=""><img src="Imagens/likendin.png" width="30" height="30"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_area-item">
+                    <div class="footer_area-item">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Latest Posts</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_body meio">Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuada</div>
+                            <div class="mes">9 months ago</div>
+                            <div class="widget_body meio">Lorem ipsum dolor sit amat velum.</div>
+                            <div class="mes">10 months ago</div>
+                            <div class="widget_body meio">Mauris adipiscing mauris fringilla turpis interdum pulvinar nisi malesuada.</div>
+                            <div class="mes">about a year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_area-item">
+                    <div class="footer_area-item">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Latest Tweets</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_body">
+                                <div class="widget_body fim">@chabodmathieu Ok, good! I'm glad to hear that! Have a nice day!</div>
+                                <div class="mes">11 days ago ago</div>
+                                <div class="widget_body fim">@chabodmathieu Support for all our items is conducted through our Support Forum - http://t.co/1IntTxsJ Please use the forum to get help. Thx</div>
+                                <div class="mes">11 days ago</div>
+                                <div class="widget_body fim">A huge thanks to all who support our work and to all of our buyers. Ours Gym WordPress Theme - just reached 1000 sales!</div>
+                                <div class="mes">22 days ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_copy">
+                © Copyright - MediCenter Template by QuanticaLabs
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
